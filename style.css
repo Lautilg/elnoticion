@@ -7,14 +7,44 @@
 
 
 
-
 body{
     background-color: white;
     font-family: 'Century Gothic', sans-serif;
 }
 
+header {
+    /* background: black; */
+    width: 100%;
+    /* padding: 20px; */
+    text-align: center;
+}
 
+img {
+    
+        height: 180px;
+        width: 200px;
+        object-fit: contain;
+}
 
+nav ul {
+    list-style: none;
+    background: rgb(230, 211, 198);
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 30px;
+    transition: all ease-in-out 250ms;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li:hover {
+  background: rgb(255, 55, 55);
+}
 
 
 /* Slider Inicio */
