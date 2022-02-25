@@ -20,7 +20,28 @@ body{
 
 .hide {
     font-size: 22px;
+    padding: 16px 20px;
+    background: rgb(230, 211, 198);
+    display: none;
+}
 
+@media (max-width: 900px) {
+    ul li {
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .hide {
+        display: block;
+    }
+
+
+    nav ul {
+        display: none;
+    }
+
+    
 }
 
 .lbl-menu {
@@ -65,7 +86,9 @@ transition: all 400ms ease;
 }
 
 .menu-t {
-    padding-left: 42px;
+    padding-left: 10px;
+    /* padding-top: -10px; */
+    cursor: pointer;
 }
 
 header {
@@ -85,6 +108,8 @@ img {
 nav ul {
     list-style: none;
     background: rgb(230, 211, 198);
+    text-align: center;
+
 }
 
 nav ul li {
